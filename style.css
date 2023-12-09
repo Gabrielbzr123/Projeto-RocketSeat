@@ -41,7 +41,7 @@ color: var(--text-color);
   margin: 56px auto 0px;
   width: 100%;
   max-width: 588px;
-  padding: 0 24px;
+padding: 0 24px;
 
 }
 
@@ -86,9 +86,9 @@ width: 112px;
     animation : slide-in 0.2s forwards;
       }
     
-      #switch button:hover {
-        outline: 8px solid var(--highligth-color);
-      }
+  #switch button:hover {
+     outline: 8px solid var(--highligth-color);
+  }
 
   #switch span {
   display: block;
@@ -115,11 +115,11 @@ width: 112px;
     justify-content: center;
    
     padding: 16px 24px;
-    height: 52px;
     
     background: var(--surface-color);
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
+    
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 
