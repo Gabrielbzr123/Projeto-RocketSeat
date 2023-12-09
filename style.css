@@ -3,6 +3,7 @@ body{
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 
 :root {
@@ -92,6 +93,7 @@ left: initial;
   background-color: var(--surface-color);
   border: 1px solid var(--stroke-color);
   -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   border-radius: 9999px;
   }
 
@@ -155,3 +157,13 @@ padding: 24px;
 font-size: 14px;
 }
 
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: (assets/br-desktop.jpg)
+  }
+
+  .Light {
+    --bg-url: url(assets/bg-desktop-light.jpg)
+  }
+}
